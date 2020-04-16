@@ -5,16 +5,38 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
-.container {
-  width: 70%;
-  padding:1em
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  width: initial;
+  background-color: mediumpurple;
+  color: white;
+  font-size: 23px;
   text-align: left;
-  border: 1px solid black;
-  margin: 0 auto
+  font-weight: bolder;
+  padding: 1em;
 }
 
+.blog {
+  font-size: 20px;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: left;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.post {
+  padding: 20px;
+}
 .container h1 {
-  
+  padding-left: 20px;
+  font-size: 25px;
   font-family: fantasy;
+}
+.container p {
+  padding-left: 20px;
 }
