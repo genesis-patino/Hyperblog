@@ -1,1 +1,2 @@
-Hoy haremos un recorrido de aprendizaje
+Hoy haremos un recorrido de aprendizaje. 
+Iniciaremos creando n repositorio con el comando init
