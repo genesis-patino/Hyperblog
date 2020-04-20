@@ -9,19 +9,23 @@ body {
   display: flex;
   justify-content: space-between;
   width: initial;
-  background-color: mediumpurple;
+  background-color: #01152e;
   color: white;
   font-size: 23px;
-  text-align: left;
+  /* text-align: right; */
   font-weight: bolder;
-  padding: 1em;
+  padding: 0em;
 }
 
-.blog {
-  font-size: 20px;
-  color: white;
+.cabecera img {
+  width: 109px;
+  height: 88px;
+}
+.cabecera p {
+  font-size: 29px;
 }
 .container {
+  background-color: white;
   display: flex;
   flex-direction: column;
   width: 70%;
