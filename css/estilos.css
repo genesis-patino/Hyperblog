@@ -40,3 +40,14 @@ body {
 .container p {
   padding-left: 20px;
 }
+
+.footer {
+  display: flex;
+  /* font-weight: bold; */
+
+  background-color: darkslategray;
+}
+
+.footer p {
+  margin-left: 20px;
+}
